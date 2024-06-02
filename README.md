@@ -163,31 +163,20 @@ export default Timer;
 ## CSS3 Coding Questions
 
 ### 1.Question: Write a CSS snippet to create a responsive grid layout with three columns that stack vertically on screens narrower than 600px?
-
-```css
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-}
-
-@media (max-width: 600px) {
-    .grid-container {
-        grid-template-columns: 1fr;
-    }
-}
-```
+    Q. https://codepen.io/vishalmali06/pen/pomeqXm | Answer : https://codepen.io/vishalmali06/pen/mdYWaZp
 
 ### 2.Question: How can you center a div both horizontally and vertically using CSS flexbox?
-```css
-.center-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Adjust as necessary */
-}
-```
+    Q. https://codepen.io/vishalmali06/pen/wvbJNwY | Answer : https://codepen.io/vishalmali06/pen/MWdpLWg
 
+### 3.How do you create a CSS Grid layout with a fixed header and footer and a scrollable content area in between?
+    Q. https://codepen.io/vishalmali06/pen/pomeGJM | Answer : https://codepen.io/vishalmali06/pen/KKLWJpj
+    
+### 4.How can you create a responsive navigation bar using CSS Flexbox?
+    Q. https://codepen.io/vishalmali06/pen/abrJXdB | Answer : https://codepen.io/vishalmali06/pen/wvbJNMR
+
+### 5.How can you create a CSS animation that fades an element in and out?
+    Q. https://codepen.io/vishalmali06/pen/ZENewWG | Answer : https://codepen.io/vishalmali06/pen/qBGrgZm
+    
 ## MongoDB Questions
 
 ### 1.Question: How would you find all documents in a MongoDB collection where the age field is greater than 25?
